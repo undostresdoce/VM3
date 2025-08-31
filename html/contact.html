@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>VerdeModa | Catálogo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" type="image/png" href="../img/favicon.png" />
+</head>
+<body class="body">
+  <header class="header">
+    <img src="../img/img1.png" alt="Logo VerdeModa" class="header__logo" />
+    <nav class="nav" aria-label="Menú principal">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Inicio</a></li>
+        <li><a href="catalog.html" class="nav__link nav__link--active">Catálogo</a></li>
+        <li><a href="contact.html" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="catalog">
+        <h1 class="catalog__title">Catálogo de Productos</h1>
+
+        <div class="catalog__filters">
+          <button class="catalog__filter" data-category="all">Todos</button>
+          <button class="catalog__filter" data-category="vestuario">Vestuario</button>
+          <button class="catalog__filter" data-category="accesorios">Accesorios</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="vestuario">
+            <img src="../img/polera1.png" alt="Polera ecológica" class="product-card__image" />
+            <h2 class="product-card__name">Polera ecológica</h2>
+            <a href="product.html" class="product-card__link">Ver más</a>
+          </article>
+
+          <article class="product-card" data-category="accesorios">
+            <img src="../img/totebag.png" alt="Bolso reciclado" class="product-card__image" />
+            <h2 class="product-card__name">Bolso reciclado</h2>
+            <a href="product.html" class="product-card__link">Ver más</a>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__social">
+      <a href="https://instagram.com/verdemoda" target="_blank" rel="noopener">
+        <img src="../img/instagram.svg" alt="Instagram" class="footer__icon" />
+      </a>
+      <a href="https://facebook.com/verdemoda" target="_blank" rel="noopener">
+        <img src="../img/facebook.svg" alt="Facebook" class="footer__icon" />
+      </a>
+    </div>
+    <p class="footer__text">
+      VerdeModa &middot; Moda consciente para un mundo mejor — By Cvmi 💖
+    </p>
+  </footer>
+</body>
+</html>

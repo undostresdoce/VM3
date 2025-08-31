@@ -1,0 +1,8 @@
+@mixin spacing($padding, $margin) {
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin transition($property, $duration) {
+  transition: $property $duration ease-in-out;
+}

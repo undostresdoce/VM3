@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-main;
+  background-color: #f8f9fa;
+}
+
+.main-box {
+  width: $box-width;
+  border: 1px solid $border-color;
+  @include spacing(20px, auto);
+  background-color: white;
+}
+
+.navbar {
+  @include transition(all, 0.3s);
+}
+
+footer {
+  background-color: $secondary-color;
+  color: white;
+}
